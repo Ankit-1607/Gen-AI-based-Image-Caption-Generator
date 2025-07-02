@@ -42,7 +42,7 @@ streamlit run app.py
 
 ### 2. Via Google Colab
 
-Running the application via colab will give better performance than Streamlit deployed app due to free tier resource allocation difference.
+> *Note: Running the application via colab will give better performance than Streamlit deployed app due to free tier resource allocation difference.*
 
 > **How to run the application using google colab:**
 
@@ -71,6 +71,38 @@ Access the live application deployed on Streamlit sharing:
 **Streamlit Deployed Application**:[AI Image Caption Generator](https://gen-ai-image-caption-generator.streamlit.app/)
 
 > *Note: The Streamlit deployment is hosted on a free tier, so performance may be slower compared to running on a GPU-enabled Colab instance.*
+
+---
+
+### 📊 Sample Outputs
+> Welcome Page.
+
+![image](https://github.com/user-attachments/assets/ad573b59-844f-4110-81e7-679efdfdbdf1)
+
+> Multiple Captions generated using Beam/Greedy Search.
+
+![image](https://github.com/user-attachments/assets/e2ad34dd-eff3-4065-b598-540fa62af854)
+
+> Multiple Captions generated using Sampling Search(generates diverse outputs).
+
+![image](https://github.com/user-attachments/assets/e1bfe4da-4474-408b-937e-b4f04aa294ea)
+
+> A descriptive caption generated using caption styling.
+
+![image](https://github.com/user-attachments/assets/474e6e4e-6561-4163-9b4f-1efb6a9ed5df)
+
+> A funny caption generated using caption styling.
+
+![image](https://github.com/user-attachments/assets/c590d06d-1aca-4414-814c-4072cf48148f)
+
+> A poetic caption generated using caption styling.
+
+![image](https://github.com/user-attachments/assets/f4301c8c-4aa9-4df9-a0ed-689da72c2edf)
+
+> Spanish Caption generated using translate caption.
+
+![image](https://github.com/user-attachments/assets/578862b6-192a-4895-a471-80bec3b87233)
+
 
 ---
 
